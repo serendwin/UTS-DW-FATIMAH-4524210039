@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Event KPOP Serendwin Entertainment</title>
+</head>
+<body>
+<header>
+    <h2>SERENDWIN ENTERTAINMENT</h2>
+    <p>ALL ABOUT PASSION, ALL ABOUT MUSIC, ALL ABOUT KPOP</p>
+    <p>🎤 NOREBANG KPOP NIGHT : Sing, Dance, and Shine Like Your Idol ✨</p>
+    <p>Lets join with us!</p>
+    <video controls width="600">
+        <source src="KPOP.mp4" type="video/mp4">
+        <track
+            label="Bahasa Indonesia"
+            kind="subtitles"
+            srclang="id"
+            src="subtitles.vtt"
+            default>
+    </video>
+</header>
+
+<main>
+    <section id="Information">
+    <header>
+        <h2>Informasi Acara</h2>
+    </header>
+        <p>Lokasi: Serendwin Studio Hall, Mangbes Town</p>
+        <p>Tanggal: 4 November 2025</p>
+    </section>
+
+    <section id="Rundown">
+    <header>
+        <h2>Agenda Acara</h2>
+    </header>
+        <ol>
+            <li>17:00 - 17:30 : Registrasi Peserta</li>
+            <li>17:30 - 18:30 : Sesi 1 - Penampilan dari line up </li>
+            <li>18:30 - 19:00 : Cover Dance Challenge</li>
+            <li>19:00 - 20:00 : Sesi 2 - Sing a song </li>
+            <li>20:00 - 20:30 : Pengumuman Pemenang & Closing Stage</li>
+        </ol>
+    </section>
+
+    <section id="Tamu">
+    <header>
+        <h2>Guest Star & Line-up</h2>
+    </header>
+        <ul>
+            <li>✨ Daydream Girls</li>
+                <figure>
+                    <img src="Daydream Girls.jpg" alt="Daydream Girls" width="600">
+                </figure>
+            <li>🎤 7Verse</li>
+                <figure>
+                    <img src="7Verse.jpg" alt="7Verse" width="600">
+                </figure>
+            <li>💫 Universe</li>
+                <figure>
+                    <img src="Universe.jpg" alt="Universe" width="600">
+                </figure>
+        </ul>
+    </section>
+
+    <section id="About">
+        <header>
+        <h2>More Information About Guest Star</h2>
+        </header>
+        <form>
+            <p>
+                <label for="guest-name">Nama Guest Star:</label>
+                <input type="text" id="guest-name" name="guest_name" required maxlength="80">
+            </p>
+
+            <p>
+                <label for="guest-info">Deskripsi Singkat:</label>
+                <textarea id="guest-info" name="guest_info" rows="3"></textarea>
+            </p>
+        </form>
+    </section>
+
+    <section id="Preview-Guest-Star">
+    <header>
+        <h2>About Guest Star</h2>
+    </header>
+    <figure>
+        <picture>
+        <img src="Serendwin.jpg" alt="Serendwin" width="400">
+        </picture>
+        <figcaption>Silahkan pilih guest star</figcaption>
+    </figure>
+    <p>Deskripsi tentang idol</p>
+    </section>
+
+    <section id="Hadiah">
+        <header>
+            <h2>Hadiah & Benefit</h2>
+        </header>
+            <ul>
+                <li>🏆 Juara 1: Trophy + Album Signed Edition</li>
+                <li>🥈 Juara 2: Merchandise Official</li>
+                <li>🎁 Semua peserta: Sertifikat & Snack Box</li>
+            </ul>
+    </section>
+    
+    <section id="Pendaftaran">
+        <header>
+        <h2>Formulir Pendaftaran</h2>
+        </header>
+        <form>
+            <p>
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" name="nama" required maxlength="80">
+            </p>
+
+            <p>
+                <label for="email">Alamat Email:</label>
+                <input type="email" id="email" name="email" required maxlength="60">
+            </p>
+
+            <p>
+                <label for="telepon">Nomor Telepon:</label>
+                <input type="tel" id="telepon" name="telepon" required maxlength="15">
+            </p>
+
+            <p>
+            <label for="peserta-category">Daftar Sebagai:</label><br>
+            <input list="categories" id="peserta-category" name="peserta_category">
+            <datalist id="categories">
+                <option value="Penonton"></option>
+                <option value="Cover dance"></option>
+            </datalist>
+            </p>
+            <button type="submit">Daftar Sekarang</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Serendwin Entertainment</p>
+    <h3>Follow me for more information!</h3>
+    <ul>
+        <li><a href="https://www.instagram.com/serendwin" target="_blank">Instagram</a></li>
+        <li><a href="https://twitter.com/serendwin" target="_blank">Twitter</a></li>
+        <li><a href="https://www.tiktok.com/@serendwin" target="_blank">TikTok</a></li>
+    </ul>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
